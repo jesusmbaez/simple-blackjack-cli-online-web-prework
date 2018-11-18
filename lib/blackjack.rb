@@ -54,6 +54,6 @@ def runner
   prompt_user
   hit?
   hit?
-  until 
+  until card_total > 21
 end
     
