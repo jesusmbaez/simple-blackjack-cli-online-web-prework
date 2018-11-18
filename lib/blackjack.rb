@@ -54,6 +54,6 @@ def runner
   prompt_user
   hit?
   hit?
-  
+  until 
 end
     
