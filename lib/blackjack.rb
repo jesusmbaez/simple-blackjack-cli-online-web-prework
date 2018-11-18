@@ -29,12 +29,12 @@ def initial_round
 end
 
 def hit?(card_total)
-  card_total = gets.chomp 
   prompt_user 
   get_user_input
-  if get_user_input == "s"
+  card_total
+  if get_user_input = "s"
     card_total
-  elsif get_user_input == "h"
+  elsif get_user_input = "h"
     card_total + deal_card
   else invalid_command
   end 
