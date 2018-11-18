@@ -29,6 +29,7 @@ def initial_round
 end
 
 def hit?(card_total)
+  card_total = gets.chomp 
   prompt_user 
   get_user_input
   card_total
