@@ -32,7 +32,6 @@ def hit?(card_total)
   card_total = gets.chomp 
   prompt_user 
   get_user_input
-  card_total
   if get_user_input == "s"
     card_total
   elsif get_user_input == "h"
