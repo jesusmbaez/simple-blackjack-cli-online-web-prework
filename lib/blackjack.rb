@@ -50,6 +50,7 @@ end
 
 def runner
   input = get_user_input
+  card_total = 
   welcome 
   initial_round
   hit?(card_total)
