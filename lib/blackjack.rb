@@ -50,6 +50,7 @@ end
 
 def runner
   welcome
-  initial_round
+  deal_card
+  
 end
     
