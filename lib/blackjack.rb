@@ -49,7 +49,7 @@ end
 #####################################################
 
 def runner
-  puts welcome 
+  welcome 
   
 end
     
